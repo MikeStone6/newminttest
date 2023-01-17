@@ -211,7 +211,7 @@ export const MultiMintButton = ({
     var value = parseInt(target.value);
     if (!isNaN(value)) {
       if (value > 10) {
-        value = 10;
+        value = 69;
         target.value = "" + value;
       } else if (value < 1) {
         value = 1;
