@@ -331,8 +331,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                6942 Rejected f00kers here to f00k shit up. 3 mints max per
-                wallet. Free. f00k f00k Mother f00kers.
+              These blocks are for building, and that’s just what they’ll do. Each block represents support for Alpha Block content creation.
               </p>
 
               {guardStates.isStarted && (
