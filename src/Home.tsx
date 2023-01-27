@@ -321,7 +321,7 @@ const Home = (props: HomeProps) => {
                 <Link href="/">
                   <img
                     style={{
-                      filter: "invert(1)",
+                     
                       maxWidth: "350px",
                     }}
                     src="/logo.png"
