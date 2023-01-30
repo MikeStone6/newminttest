@@ -115,8 +115,8 @@ export const Root = styled('div')`
   /* Cloud Objects */
 
   .cloud {
-    width: 250px;
-    height: 250px;
+    width: 450px;
+    height: 450px;
     box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 16px 16px rgba(0, 0, 0, 0.1);
     position: relative;
