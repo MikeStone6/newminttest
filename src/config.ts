@@ -9,12 +9,12 @@ export const rpcHost =
 
 export const candyMachineId = new PublicKey(
   process.env.NEXT_PUBLIC_CANDY_MACHINE_ID ||
-    "FbSyNDnwfpE5PyZamG1xhHJ9hFTYNU91R3Sdhuq1dABr"
+    "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
 );
 export const defaultGuardGroup =
-  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || "early"; // undefined means default
+  process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
 
-  
+// "qasJ6jhgtngKk2QnEPdDjuFH8NMoM58W8TxPBXAChPY"
 // "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
 // "DAA8yRLu7acVs3kxaTyCjoEjNWGinLaCKVhDY29ASNua"
 
@@ -25,5 +25,4 @@ export const whitelistedWallets = [
   "232Z5QNvQ4wRyraGWFpC5i3HEbqozEWgBCV95eWASaG1",
   "D8ivzpXkG66VknRdVjEF1HjqS3T1tzcqraVR6FYaeLsV",
   "sTAKERL4U8fbn2nUte6rPVdcrz2z3fEh1adQEDrGULr",
-  "FBjWKYesnwVoG3vDEePqvtjPNr3SDyEdEkvQQwYYafDQ",
 ];
