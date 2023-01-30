@@ -146,6 +146,7 @@ export const Root = styled('div')`
   //   right: 50px;
   //   top: -90px;
   //   border-radius: 200px;
+  //     background: url(/logo.png);
   // }
 
   /* KEYFRAMES */
