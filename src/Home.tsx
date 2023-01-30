@@ -322,7 +322,7 @@ const Home = (props: HomeProps) => {
                   <img
                     style={{
                       filter: "invert(1)",
-                      maxWidth: "350px",
+                      maxWidth: "650px",
                     }}
                     src="/logo.png"
                     alt="logo"
@@ -403,36 +403,7 @@ const Home = (props: HomeProps) => {
               setMintedItems={setMintedItems}
             />
           </StyledContainer>
-          <NftWrapper>
-            <div className="marquee-wrapper">
-              <div className="marquee">
-                {[...Array(21)].map((item, index) => (
-                  <img
-                    key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
-                    height="200px"
-                    width="200px"
-                    alt=""
-                  />
-                ))}
-              </div>
-            </div>
-          </NftWrapper>
-          <NftWrapper2>
-            <div className="marquee-wrapper second">
-              <div className="marquee">
-                {[...Array(21)].map((item, index) => (
-                  <img
-                    key={index}
-                    src={`/nfts/${index + 1}.jpeg`}
-                    height="200px"
-                    width="200px"
-                    alt=""
-                  />
-                ))}
-              </div>
-            </div>
-          </NftWrapper2>
+         
         </Root>
       </>
       <Snackbar
