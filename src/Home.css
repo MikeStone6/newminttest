@@ -29,11 +29,16 @@
   src: url('./fonts/Catamaran-ExtraBold.ttf') format('truetype');
   font-style: normal;
 }
+@font-face {
+  font-family: 'Calibri';
+  src: url('./fonts/Calibri-Bold.ttf') format('truetype');
+  font-style: normal;
+}
 body {
   /* background-color: var(--main-background-color); */
   background-color: #000;
   background-size: cover;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Calibri', cursive;
   font-size: 1.1em;
 }
 
