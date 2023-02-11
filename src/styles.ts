@@ -632,7 +632,7 @@ export const Hero = styled('div')`
   margin: 80px 0 80px;
 `;
 export const MintCount = styled('h3')`
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Calibri', cursive;
   font-size: 30px;
   line-height: 1;
   margin-bottom: 20px;
@@ -640,7 +640,7 @@ export const MintCount = styled('h3')`
   font-weight: 700;
 `;
 export const Heading = styled('h1')`
-  font-family: nabana;
+  font-family: Calibri;
   letter-spacing: 2px;
   margin-bottom: -20px;
   color: #897ea5;
