@@ -318,16 +318,7 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                <Link href="/">
-                  <img
-                    style={{
-                      filter: "invert(1)",
-                      maxWidth: "650px",
-                    }}
-                    src="/logo.png"
-                    alt="logo"
-                  />
-                </Link>
+                AlphaBlock
               </Heading>
 
               <p>
