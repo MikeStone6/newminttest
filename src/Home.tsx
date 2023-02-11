@@ -317,10 +317,12 @@ const Home = (props: HomeProps) => {
             {/* <MintNavigation /> */}
 
             <Hero>
-              <Heading>
-                AlphaBlock <br/>
+              <h1>
+                AlphaBlock
+              </h1>
+              <h2>
                 SOL Mint
-              </Heading>
+              </h2>
 
               <p>
               These blocks are for building, and that’s just what they’ll do. <br/>
