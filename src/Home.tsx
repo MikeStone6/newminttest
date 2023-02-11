@@ -318,7 +318,8 @@ const Home = (props: HomeProps) => {
 
             <Hero>
               <Heading>
-                AlphaBlock
+                AlphaBlock <br/>
+                SOL Mint
               </Heading>
 
               <p>
