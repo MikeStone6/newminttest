@@ -326,7 +326,7 @@ const Home = (props: HomeProps) => {
 
               <p>
               These blocks are for building, and that’s just what they’ll do. <br/>
-              Each block represents support for Alpha Block content creation.
+              Each block represents support for AlphaBlock content creation.
               </p>
 
               {guardStates.isStarted && (
