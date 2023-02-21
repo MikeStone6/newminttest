@@ -329,6 +329,24 @@ const Home = (props: HomeProps) => {
               Each block represents support for AlphaBlock content creation.
               </p>
 
+              <h2>
+              NOTE
+              </h2>
+              
+              <p>
+              MultiMint was introduced to enable the easier processing of the OTC trades. <br/>
+              As such, this meant having to update the Candy Machines from V2 to V3 and affected <br/>
+              the displayed total on the new Candy Machines. <br/>
+              </p>
+
+              <h2>
+              AlphaBlock supply is 3333.
+              </h2>
+
+              <h2>
+              Total $SOL Supply: 1111
+              </h2>
+
               {guardStates.isStarted && (
                 <MintCount>
                   Total Minted : {candyMachineV3.items.redeemed}/
