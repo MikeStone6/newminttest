@@ -321,7 +321,7 @@ const Home = (props: HomeProps) => {
                 AlphaBlock
               </h1>
               <h2>
-                SOL Mint
+               0.33 $SOL Mint
               </h2>
 
               <p>
